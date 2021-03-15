@@ -1,9 +1,13 @@
 import Head from 'next/head'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <div className="container">
+
+      <Image src="/images/profile.jpg" width={595} height={400} alt="Ayo Moses Odukoya" />
+
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
